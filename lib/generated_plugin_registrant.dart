@@ -12,11 +12,7 @@ import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
 // ignore: public_member_api_docs
 void registerPlugins(Registrar registrar) {
-<<<<<<< HEAD
   FirestoreWeb.registerWith(registrar);
-=======
-  FirebaseFirestoreWeb.registerWith(registrar);
->>>>>>> 7bd3106c1cef9e886a460bb98fa39b63400a6c22
   FirebaseAuthWeb.registerWith(registrar);
   FirebaseCoreWeb.registerWith(registrar);
   registrar.registerMessageHandler();

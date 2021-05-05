@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -67,18 +66,3 @@ class _NewMessagesState extends State<NewMessages> {
     );
   }
 }
-=======
-import 'package:flutter/material.dart';
-
-class NewMessages extends StatefulWidget {
-  @override
-  _NewMessagesState createState() => _NewMessagesState();
-}
-
-class _NewMessagesState extends State<NewMessages> {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
->>>>>>> 7bd3106c1cef9e886a460bb98fa39b63400a6c22
